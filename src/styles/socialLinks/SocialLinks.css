@@ -1,0 +1,19 @@
+.social-links{
+    display: flex;
+}
+
+.facebook:hover{
+    fill: blue
+}
+
+.instagram:hover{
+    fill: purple
+}
+
+.twitter:hover{
+    fill:rgb(0, 162, 255)
+}
+
+.youtube:hover{
+    fill:red
+}
