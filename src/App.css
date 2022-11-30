@@ -1,0 +1,24 @@
+.background-img {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-height: 392px;
+}
+.background-container {
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+
+#vacio {
+    width: 100%;
+    height: 46rem;
+}

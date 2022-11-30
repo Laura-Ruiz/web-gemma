@@ -1,0 +1,71 @@
+.build-content {
+    position: relative;
+    z-index: 1;
+}
+
+
+.background-img-biography {
+    background-image: url("../../assets/images/biography/gemma_gallery_08.jpg");
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 39rem 1fr
+}
+.container-text-biography{
+    padding:  8rem 9rem 1rem 0;
+}
+.container-text-biography > p {
+    text-align: justify;
+}
+.container-img-biography > img{
+    width: 25rem;
+}
+.container-img-biography > p {
+    
+    /* font-weight: 600; */
+    font-size: 20px;
+    color: #363636;
+    letter-spacing: 1px;
+    margin-top: 5px ;
+}
+.container-img-biography {
+    padding: 10rem 0 0 10rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.blockquote-container{
+  font-size: 1.1rem;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #c07897 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.blockquote-container::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#c07897 ;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.blockquote-container::after{
+  content: '';
+}
+
+.blockquote-container span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

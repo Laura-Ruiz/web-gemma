@@ -1,0 +1,24 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+   
+    
+    
+} 
+
+.btn-style{
+    align-self: flex-end;
+    margin-right: 2rem ;
+}
+
+.btn-style button{
+    border: none;
+    background:none;
+}
+

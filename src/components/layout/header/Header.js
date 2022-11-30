@@ -77,7 +77,7 @@ export default function Header() {
               </ul>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/biography">
+              <Link class="nav-link" to="/publications">
                 Publicaciones
               </Link>
             </li>
@@ -98,12 +98,12 @@ export default function Header() {
               </Link>
               <ul class="dropdown-menu">
                 <li>
-                  <Link class="dropdown-item" href="#">
+                  <Link class="dropdown-item" to="/gallery">
                     Fotos
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="#">
+                  <Link class="dropdown-item" to="#">
                     Videos
                   </Link>
                 </li>

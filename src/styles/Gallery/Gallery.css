@@ -1,0 +1,24 @@
+
+.background-img-gallery {
+    background-image: url("../../assets/images/gallery/img1.jpg");
+}
+
+.imageStyle {
+  
+    display: flex;
+    justify-content: center;
+    gap: 3rem
+}
+.imageStyle img {
+    width: 500px;
+    padding-top: 3rem;
+}
+
+.imageStyle button {
+  border: none;
+  background: none;
+}
+
+.animateMe {
+    animation: slide-in 3000ms;
+}

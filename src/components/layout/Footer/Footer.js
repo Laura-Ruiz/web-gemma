@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <footer class="navbar fixed-bottom d-flex flex-column bg-secondary bg-opacity-10">
+    <footer class="navbar  d-flex flex-column bg-secondary bg-opacity-10">
       <div class="d-flex gap-3">
         <div>
         <Link to="/Biography">
