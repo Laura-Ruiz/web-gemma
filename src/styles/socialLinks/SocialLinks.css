@@ -1,8 +1,8 @@
-.social-links{
-    display: flex;
+ul {
+    padding-left: 0;
 }
 
-.facebook:hover{
+/* .facebook:hover{
     fill: blue
 }
 
@@ -16,4 +16,8 @@
 
 .youtube:hover{
     fill:red
+} */
+
+svg{
+    margin-bottom: 16px;
 }

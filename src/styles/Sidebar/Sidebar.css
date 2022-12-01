@@ -1,16 +1,24 @@
 
+ul {
+    padding-left: 0;
+}
+svg{
+    margin-bottom: 16px;
+}
 .container-bar{
     width: 100%;
     max-width: 55px;
     position: fixed;
     left: 0;
     top: 25%;
+    z-index: 100
 }
+#facebook:hover, .instagram:hover, .twitter:hover, .youtube:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.icon-social {overflow:hidden;}
 
 .icon-social a{
     display: block;
     text-decoration: none;
-    background: #cc2b2b;
     color: #fff;
     width: 2.6rem;
     height: 2.6rem;
@@ -22,3 +30,23 @@
     margin: 5px;
     z-index: 100;
 }
+
+.icon-social #facebook{
+    background-color:  #4267B2
+}
+
+
+.icon-social .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);   
+}
+
+.icon-social .twitter {
+    background-color: #00acee
+}
+.icon-social .youtube {
+    background-color: #e52d27;
+}
+
+/* ul:hover{
+    opacity: 0.5;
+} */
