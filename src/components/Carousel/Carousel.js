@@ -3,7 +3,7 @@ import "../../styles/Carousel/Carousel.css"
 export default function Carrousel({ id }) {
   const [idImg, setIdImg] = useState(id);
   function anterior() {
-    console.log("idImg", idImg);
+   
     if (idImg > 5) {
       setIdImg(1);
     } else {
@@ -22,7 +22,7 @@ export default function Carrousel({ id }) {
 
   return (
     <div className="carousel">
-      <button onClick={anterior}>
+      <button onClick={previa}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -44,7 +44,7 @@ export default function Carrousel({ id }) {
           alt={"Foto perfil"}
         />
 
-        <button onClick={previa}>
+        <button onClick={anterior}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
